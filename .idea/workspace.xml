@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="apos2" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff21760e-cc03-4f4c-bce4-63abc1befd8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/apos2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/classes/br/com/bean/ClienteBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/classes/br/com/dao/GenericDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/classes/br/com/model/Cliente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/classes/br/com/model/Pessoa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/classes/br/com/model/enuns/Status.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/classes/br/com/util/HibernateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/faces-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/byte-buddy-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/cdi-api-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/classmate-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/el-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/hibernate-core-5.2.6.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/hibernate-entitymanager-5.2.6.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/jandex-2.0.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/javassist-3.20.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/javax.inject-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/jsf-api-2.2.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/jsf-impl-2.2.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/jsr250-api-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/postgresql-9.2-1003-jdbc4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/primefaces-6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/cadastrar/cadastro-clientes.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/apos2.war/index.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bean/ClienteBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/dao/GenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/model/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/model/Contato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/model/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/model/enuns/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/util/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/testes/TestaClienteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/testes/TestaPersistence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/testes/TestaSelecaoDatas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/bean/ClienteBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/dao/GenericDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/model/Cliente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/model/Contato.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/model/Pessoa.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/model/enuns/Status.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/util/HibernateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/br/com/testes/TestaClienteDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/br/com/testes/TestaPersistence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/br/com/testes/TestaSelecaoDatas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/cadastrar/cadastro-clientes.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.xhtml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="947435188">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.69" value="1" />
+          <entry key="project.open.time.73" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="17" />
+          <entry key="xhtml" value="2" />
+          <entry key="xml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="17" />
+          <entry key="XHTML" value="2" />
+          <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="14" />
+          <entry key="java" value="3818" />
+          <entry key="xhtml" value="1431" />
+          <entry key="xml" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3818" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="XHTML" value="1431" />
+          <entry key="XML" value="24" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/model/Cliente.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1563#1564#0" expanded="true" />
+                <element signature="e#1593#1594#0" expanded="true" />
+                <element signature="e#1646#1647#0" expanded="true" />
+                <element signature="e#1684#1685#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="96" lean-forward="true" selection-start-line="5" selection-start-column="96" selection-end-line="5" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/dao/GenericDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/model/Contato.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#697#698#0" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#857#858#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1083#1084#0" expanded="true" />
+                <element signature="e#1117#1118#0" expanded="true" />
+                <element signature="e#1159#1160#0" expanded="true" />
+                <element signature="e#1196#1197#0" expanded="true" />
+                <element signature="e#1257#1258#0" expanded="true" />
+                <element signature="e#1309#1310#0" expanded="true" />
+                <element signature="e#1674#1675#0" expanded="true" />
+                <element signature="e#1729#1730#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/testes/TestaPersistence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/testes/TestaClienteDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="jsf" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/br/com/model/enuns/Situacao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/model/enuns/Status.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/util/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/testes/TestaUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/testes/TestaSelecaoDatas.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/model/Pessoa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/dao/GenericDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web/cadastrar/cadastro-clientes.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/bean/ClienteBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/model/Contato.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/testes/TestaClienteDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/testes/TestaPersistence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/model/Cliente.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
+    <option name="width" value="673" />
+    <option name="height" value="555" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="apos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apos2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apos2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apos2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apos2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apos2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apos2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apos2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apos2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apos2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="enuns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apos2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apos2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apos2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apos2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apos2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apos2" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apos2" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547767747331" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestaPersistence.deveGerarTAbelas">
+    <configuration name="JBoss 15.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 15.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/apos2_war_exploded/index.xhtml" />
+      <deployment>
+        <artifact name="apos2">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" value="" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="" />
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="JBoss" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="46859" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="apos2" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="TestaClienteDao.deveSalvarCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apos2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.testes" />
+      <option name="MAIN_CLASS_NAME" value="br.com.testes.TestaClienteDao" />
+      <option name="METHOD_NAME" value="deveSalvarCliente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaPersistence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apos2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.testes" />
+      <option name="MAIN_CLASS_NAME" value="br.com.testes.TestaPersistence" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaPersistence.deveGerarTAbelas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apos2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.testes" />
+      <option name="MAIN_CLASS_NAME" value="br.com.testes.TestaPersistence" />
+      <option name="METHOD_NAME" value="deveGerarTAbelas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaSelecaoDatas.testaDateDataNascimento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apos2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.testes" />
+      <option name="MAIN_CLASS_NAME" value="br.com.testes.TestaSelecaoDatas" />
+      <option name="METHOD_NAME" value="testaDateDataNascimento" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cadastro-clientes.xhtml" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat8.5" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/cadastrar/cadastro-clientes.xhtml" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="apos2">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="cadastro-clientes_xhtml_apos2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="36111" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="apos2" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat8.5" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/apos2" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="apos2">
+          <settings>
+            <option name="CONTEXT_PATH" value="/apos2" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_apos2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="43311" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="apos2" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JBoss Server.JBoss 15.0.0.Final" />
+      <item itemvalue="Tomcat Server.tomcat" />
+      <item itemvalue="JUnit.TestaSelecaoDatas.testaDateDataNascimento" />
+      <item itemvalue="JUnit.TestaClienteDao.deveSalvarCliente" />
+      <item itemvalue="JUnit.TestaPersistence" />
+      <item itemvalue="Tomcat Server.cadastro-clientes.xhtml" />
+      <item itemvalue="JUnit.TestaPersistence.deveGerarTAbelas" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestaPersistence.deveGerarTAbelas" />
+        <item itemvalue="Tomcat Server.cadastro-clientes.xhtml" />
+        <item itemvalue="JUnit.TestaClienteDao.deveSalvarCliente" />
+        <item itemvalue="JUnit.TestaPersistence" />
+        <item itemvalue="JUnit.TestaSelecaoDatas.testaDateDataNascimento" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff21760e-cc03-4f4c-bce4-63abc1befd8c" name="Default Changelist" comment="" />
+      <created>1547680169160</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547680169160</updated>
+      <workItem from="1547680177857" duration="2500000" />
+      <workItem from="1547683408782" duration="10171000" />
+      <workItem from="1547739821116" duration="4172000" />
+      <workItem from="1547765608515" duration="2138000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestaPersistence - 2019.01.17 at 08h 28m 12s.xml">
+      <configuration name="TestaPersistence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaClienteDao_deveSalvarCliente - 2019.01.17 at 08h 28m 35s.xml">
+      <configuration name="TestaClienteDao.deveSalvarCliente" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaClienteDao_deveSalvarCliente - 2019.01.17 at 08h 30m 22s.xml">
+      <configuration name="TestaClienteDao.deveSalvarCliente" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaClienteDao_deveSalvarCliente - 2019.01.17 at 08h 34m 02s.xml">
+      <configuration name="TestaClienteDao.deveSalvarCliente" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaClienteDao_deveSalvarCliente - 2019.01.17 at 08h 34m 59s.xml">
+      <configuration name="TestaClienteDao.deveSalvarCliente" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaClienteDao_deveSalvarCliente - 2019.01.17 at 08h 35m 21s.xml">
+      <configuration name="TestaClienteDao.deveSalvarCliente" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaClienteDao_deveSalvarCliente - 2019.01.17 at 08h 35m 46s.xml">
+      <configuration name="TestaClienteDao.deveSalvarCliente" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaClienteDao_deveSalvarCliente - 2019.01.17 at 08h 36m 03s.xml">
+      <configuration name="TestaClienteDao.deveSalvarCliente" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaClienteDao_deveSalvarCliente - 2019.01.17 at 08h 38m 42s.xml">
+      <configuration name="TestaClienteDao.deveSalvarCliente" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaPersistence_deveGerarTAbelas - 2019.01.17 at 20h 09m 55s.xml">
+      <configuration name="TestaPersistence.deveGerarTAbelas" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18981000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2636778" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Persistence" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.95507485" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3294509" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="1.0" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3294509" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3294509" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="JSF" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.6.Final/hibernate-core-5.2.6.Final-sources.jar!/org/hibernate/jpa/HibernatePersistenceProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/util/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/model/enuns/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/testes/TestaSelecaoDatas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/model/Pessoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/cadastrar/cadastro-clientes.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="36" column="76" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bean/ClienteBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/model/Contato.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1309#1310#0" expanded="true" />
+            <element signature="e#1674#1675#0" expanded="true" />
+            <element signature="e#1729#1730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="96" lean-forward="true" selection-start-line="5" selection-start-column="96" selection-end-line="5" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/testes/TestaClienteDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/testes/TestaPersistence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/dao/GenericDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/model/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="61" lean-forward="true" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+            <element signature="e#1684#1685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>apos2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>apos2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
