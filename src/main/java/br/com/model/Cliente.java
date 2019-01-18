@@ -9,19 +9,13 @@ import java.util.List;
 import java.util.Objects;
 
 @Entity(name = "cliente")
-@NamedQueries({@NamedQuery(name = "Cliente.select",query = "SELECT u FROM cliente u"),
-                @NamedQuery(name = "Cliente.buscarPorNome",query = "SELECT u FROM cliente u WHERE u.nome = :nome")})
+@NamedQueries({@NamedQuery(name = "Cliente.select", query = "SELECT u FROM cliente u"),
+        @NamedQuery(name = "Cliente.buscarPorNome", query = "SELECT u FROM cliente u WHERE u.nome = :nome")})
 public class Cliente extends Pessoa implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
-    @Column(nullable = false, length = 80, unique = true)
-    private String email;
-
-    @OneToMany(mappedBy = "clienteContato", fetch = FetchType.EAGER)
-    private List<Contato> contato;
 
     @Temporal(TemporalType.DATE)
     @Column(nullable = false)
@@ -43,14 +37,6 @@ public class Cliente extends Pessoa implements Serializable {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
     public Date getDataCadastro() {
@@ -77,34 +63,23 @@ public class Cliente extends Pessoa implements Serializable {
         this.ativo = ativo;
     }
 
-    public List<Contato> getContato() {
-        return contato;
-    }
-
-    public void setContato(List<Contato> contato) {
-        this.contato = contato;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Cliente cliente = (Cliente) o;
-        return Objects.equals(id, cliente.id) &&
-                Objects.equals(email, cliente.email);
+        return Objects.equals(id, cliente.id);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, email);
+        return Objects.hash(id);
     }
 
     @Override
     public String toString() {
         return "Cliente{" +
                 "id=" + id +
-                ", email='" + email + '\'' +
-                ", contato=" + contato +
                 ", dataCadastro=" + dataCadastro +
                 ", status=" + status +
                 ", ativo=" + ativo +

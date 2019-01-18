@@ -2,47 +2,54 @@ package br.com.testes;
 
 import br.com.dao.GenericDao;
 import br.com.model.Cliente;
+import br.com.model.Contato;
 import br.com.model.enuns.Status;
 import org.junit.Test;
 
 import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
+import static junit.framework.TestCase.assertNotNull;
 import static junit.framework.TestCase.assertTrue;
 
 public class TestaClienteDao {
 
-    private Cliente c;
-    private GenericDao<Cliente> dao = new GenericDao<>();
+    Cliente c;
+    Contato contato;
+    GenericDao<Cliente> clienteDao = new GenericDao<>();
+    GenericDao<Contato> contatoGenericDao = new GenericDao<>();
 
     @Test
-    public void deveSalvarCliente(){
-        c = new Cliente();
+    public void deveSalvarCliente() {
         Calendar dataCadasto = Calendar.getInstance();
         DateFormat formatDataCasdastro = DateFormat.getDateInstance(DateFormat.FULL);
         Date data = dataCadasto.getTime();
         formatDataCasdastro.format(data);
 
-        c.setNome("Jiraia");
-        c.setCpf("0800");
-        c.setRg("00010");
+        c = new Cliente();
+        c.setNome("Zinedine Zidane");
+        c.setCpf("001");
+        c.setRg("32100");
         c.setDataNascimento(data);
         c.setDataCadastro(data);
-        c.setStatus(Status.OK);
+        c.setStatus(Status.BLOQUEADO);
         c.setAtivo(true);
-        c.setEmail("jiraia@gmail.com");
-        //c.setTefefone1("(67)3344-9090");
-        //c.setTefefone2("(67)3344-3030");
-        c.setEndereco("Rua da paz 333");
-
-        System.out.println(c.toString());
-        System.out.println(c.getNome());
-
-        assertTrue(dao.CadastrarCliente(c));
+        c.setEndereco("Rua dos golaçes 33");
+        assertTrue(clienteDao.salvar(c));
     }
+
+    @Test
+    public void deveListarUsuarios(){
+        List<Cliente> clientes = clienteDao.listar(Cliente.class);
+        for(Cliente c : clientes){
+            System.out.println(c.getNome()+""+c.toString());
+        }
+        assertNotNull(clientes);
+    }
+
+
+
 
 }

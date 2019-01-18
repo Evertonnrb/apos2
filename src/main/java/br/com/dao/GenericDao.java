@@ -5,12 +5,13 @@ import org.hibernate.Hibernate;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
+import java.util.List;
 
 public class GenericDao<E> {
 
     private EntityManager em = HibernateUtil.getFactory();
 
-    public  boolean CadastrarCliente(E entidade){
+    public  boolean salvar(E entidade){
         EntityTransaction transaction = em.getTransaction();
         transaction.begin();
         em.persist(entidade);
@@ -18,4 +19,12 @@ public class GenericDao<E> {
         return true;
     }
 
+    @SuppressWarnings("unchecked")
+    public List<E> listar(Class<E> entidade){
+        EntityTransaction transaction = em.getTransaction();
+        transaction.begin();
+        List<E> lista = em.createQuery("FROM "+entidade.getName()).getResultList();
+        transaction.commit();
+        return lista;
+    }
 }

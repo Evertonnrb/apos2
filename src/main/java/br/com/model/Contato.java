@@ -9,15 +9,12 @@ public class Contato implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    @Column(length = 30,nullable = false)
+    @Column(length = 30)
     private String telefone1;
-    @Column(length = 30,nullable = false)
+    @Column(length = 30)
     private String telefone2;
-    @Column(length = 30,nullable = false)
+    @Column(length = 30)
     private String email;
-
-    @ManyToOne(optional = false,fetch = FetchType.EAGER)
-    private Cliente clienteContato;
 
     public Long getId() {
         return id;
@@ -51,26 +48,17 @@ public class Contato implements Serializable {
         this.email = email;
     }
 
-    public Cliente getClienteContato() {
-        return clienteContato;
-    }
-
-    public void setClienteContato(Cliente clienteContato) {
-        this.clienteContato = clienteContato;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Contato contato = (Contato) o;
-        return Objects.equals(id, contato.id) &&
-                Objects.equals(clienteContato, contato.clienteContato);
+        return Objects.equals(id, contato.id);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, clienteContato);
+        return Objects.hash(id);
     }
 
     @Override
@@ -80,7 +68,6 @@ public class Contato implements Serializable {
                 ", telefone1='" + telefone1 + '\'' +
                 ", telefone2='" + telefone2 + '\'' +
                 ", email='" + email + '\'' +
-                ", clienteContato=" + clienteContato +
                 '}';
     }
 }
