@@ -2,6 +2,7 @@ package br.com.bean;
 
 import br.com.model.Cliente;
 
+import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
@@ -9,7 +10,12 @@ import javax.faces.bean.RequestScoped;
 @RequestScoped
 public class ClienteBean {
 
-    private Cliente cliente = new Cliente();
+    private Cliente cliente;
+
+    @PostConstruct
+    public void init(){
+        cliente = new Cliente();
+    }
 
     public Cliente getCliente() {
         return cliente;

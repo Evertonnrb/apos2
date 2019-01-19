@@ -11,7 +11,7 @@ public class GenericDao<E> {
 
     private EntityManager em = HibernateUtil.getFactory();
 
-    public  boolean salvar(E entidade){
+    public boolean salvar(E entidade) {
         EntityTransaction transaction = em.getTransaction();
         transaction.begin();
         em.persist(entidade);
@@ -20,11 +20,42 @@ public class GenericDao<E> {
     }
 
     @SuppressWarnings("unchecked")
-    public List<E> listar(Class<E> entidade){
+    public List<E> listar(Class<E> entidade) {
         EntityTransaction transaction = em.getTransaction();
         transaction.begin();
-        List<E> lista = em.createQuery("FROM "+entidade.getName()).getResultList();
+        List<E> lista = em.createQuery("FROM " + entidade.getName()).getResultList();
         transaction.commit();
         return lista;
     }
+
+    @SuppressWarnings("unchecked")
+    public E buscarPorId(E entidade) {
+        Object id = HibernateUtil.getPrimaryKey(entidade);
+        entidade = (E) em.find(entidade.getClass(),id);
+        return entidade;
+    }
+
+    public E atualizar(E entidade){
+        EntityTransaction transaction = em.getTransaction();
+        transaction.begin();
+        em.merge(entidade);
+        transaction.commit();
+        return entidade;
+    }
+
+    public boolean deletar(E entidade){
+        Object id = HibernateUtil.getPrimaryKey(entidade);
+        EntityTransaction transaction = em.getTransaction();
+        transaction.begin();
+        em.remove(entidade);
+        transaction.commit();
+        return true;
+    }
+
+    public EntityManager getEntityManager(){
+        return em;
+    }
+
+
+
 }

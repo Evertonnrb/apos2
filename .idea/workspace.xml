@@ -6,19 +6,49 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff21760e-cc03-4f4c-bce4-63abc1befd8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__postgresql_postgresql_9_0_801_jdbc4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_2_1003_jdbc4.xml" beforeDir="false" />
+    <list default="true" id="ff21760e-cc03-4f4c-bce4-63abc1befd8c" name="Default Changelist" comment="second commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/dao/ClienteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/br/com/dao/ClienteDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apos2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/apos2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/classes/br/com/bean/ClienteBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/classes/br/com/dao/GenericDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/classes/br/com/model/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/classes/br/com/model/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/classes/br/com/model/enuns/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/classes/br/com/util/HibernateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/faces-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/byte-buddy-1.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/cdi-api-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/classmate-1.3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/el-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/hibernate-core-5.2.6.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/hibernate-entitymanager-5.2.6.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/javax.inject-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/jsf-api-2.2.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/jsf-impl-2.2.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/jsr250-api-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/postgresql-9.2-1003-jdbc4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/lib/primefaces-6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/cadastrar/cadastro-clientes.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/apos2.war/index.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bean/ClienteBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bean/ClienteBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/dao/GenericDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/dao/GenericDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/model/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/model/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/model/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/model/Contato.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/testes/TestaClienteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/testes/TestaClienteDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/dao/GenericDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/dao/GenericDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/model/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/model/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/model/Contato.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/model/Contato.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/testes/TestaClienteDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/testes/TestaClienteDao.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,14 +74,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="23" />
+          <entry key="java" value="26" />
           <entry key="xhtml" value="2" />
           <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="23" />
+          <entry key="JAVA" value="26" />
           <entry key="XHTML" value="2" />
           <entry key="XML" value="10" />
         </counts>
@@ -59,16 +89,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="33" />
-          <entry key="java" value="4556" />
+          <entry key="java" value="5725" />
+          <entry key="txt" value="19" />
           <entry key="xhtml" value="1431" />
           <entry key="xml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4554" />
+          <entry key="JAVA" value="5723" />
           <entry key="JPA QL" value="2" />
-          <entry key="PLAIN_TEXT" value="33" />
+          <entry key="PLAIN_TEXT" value="52" />
           <entry key="XHTML" value="1431" />
           <entry key="XML" value="24" />
         </counts>
@@ -80,7 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/model/Cliente.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="201">
+              <caret line="12" column="107" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/model/Contato.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="912">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,8 +135,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/dao/GenericDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="249">
+              <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#829#859#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1110#1111#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/dao/ClienteDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/testes/TestaClienteDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,12 +169,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/br/com/testes/TestaClienteDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bean/ClienteBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+            <state relative-caret-position="2">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,20 +210,21 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/br/com/model/enuns/Situacao.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/model/enuns/Status.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/util/HibernateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/testes/TestaUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/testes/TestaSelecaoDatas.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/model/Pessoa.java" />
         <option value="$PROJECT_DIR$/web/cadastrar/cadastro-clientes.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/bean/ClienteBean.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/testes/TestaPersistence.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/dao/GenericDao.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/model/Contato.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/util/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/dao/ClienteDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/model/Cliente.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/testes/TestaClienteDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/dao/GenericDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/bean/ClienteBean.java" />
       </list>
     </option>
   </component>
@@ -189,7 +248,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="27" />
     <option name="width" value="673" />
     <option name="height" value="555" />
@@ -275,6 +334,15 @@
               <item name="apos2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apos2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -328,7 +396,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547855517645" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547860578328" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -348,7 +416,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestaClienteDao.deveListarUsuarios">
+  <component name="RunManager" selected="JUnit.TestaClienteDao.deveDeletarEntidade">
     <configuration name="JBoss 15.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 15.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/apos2_war_exploded/index.xhtml" />
       <deployment>
@@ -420,7 +488,7 @@
         </option>
       </method>
     </configuration>
-    <configuration name="TestaClienteDao.deveListarUsuarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestaClienteDao.buscarPeloId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="apos2" />
       <extension name="coverage">
         <pattern>
@@ -430,7 +498,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="br.com.testes" />
       <option name="MAIN_CLASS_NAME" value="br.com.testes.TestaClienteDao" />
-      <option name="METHOD_NAME" value="deveListarUsuarios" />
+      <option name="METHOD_NAME" value="buscarPeloId" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaClienteDao.deveAtaulizar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apos2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.testes" />
+      <option name="MAIN_CLASS_NAME" value="br.com.testes.TestaClienteDao" />
+      <option name="METHOD_NAME" value="deveAtaulizar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaClienteDao.deveBuscarPeloNome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apos2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.testes" />
+      <option name="MAIN_CLASS_NAME" value="br.com.testes.TestaClienteDao" />
+      <option name="METHOD_NAME" value="deveBuscarPeloNome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaClienteDao.deveDeletarEntidade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apos2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.testes" />
+      <option name="MAIN_CLASS_NAME" value="br.com.testes.TestaClienteDao" />
+      <option name="METHOD_NAME" value="deveDeletarEntidade" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -450,110 +566,6 @@
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestaPersistence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="apos2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.testes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.testes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.testes.TestaPersistence" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestaPersistence.deveGerarTAbelas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="apos2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.testes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.testes" />
-      <option name="MAIN_CLASS_NAME" value="br.com.testes.TestaPersistence" />
-      <option name="METHOD_NAME" value="deveGerarTAbelas" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="cadastro-clientes.xhtml" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat8.5" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/cadastrar/cadastro-clientes.xhtml" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <deployment>
-        <artifact name="apos2">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="cadastro-clientes_xhtml_apos2" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="36111" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="apos2" />
-        </option>
       </method>
     </configuration>
     <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat8.5" ALTERNATIVE_JRE_ENABLED="false">
@@ -632,18 +644,18 @@
       <item itemvalue="JBoss Server.JBoss 15.0.0.Final" />
       <item itemvalue="Tomcat Server.tomcat" />
       <item itemvalue="JUnit.TestaClienteDao.deveSalvarCliente" />
-      <item itemvalue="JUnit.TestaPersistence" />
-      <item itemvalue="Tomcat Server.cadastro-clientes.xhtml" />
-      <item itemvalue="JUnit.TestaPersistence.deveGerarTAbelas" />
-      <item itemvalue="JUnit.TestaClienteDao.deveListarUsuarios" />
+      <item itemvalue="JUnit.TestaClienteDao.buscarPeloId" />
+      <item itemvalue="JUnit.TestaClienteDao.deveBuscarPeloNome" />
+      <item itemvalue="JUnit.TestaClienteDao.deveAtaulizar" />
+      <item itemvalue="JUnit.TestaClienteDao.deveDeletarEntidade" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestaClienteDao.deveListarUsuarios" />
+        <item itemvalue="JUnit.TestaClienteDao.deveDeletarEntidade" />
         <item itemvalue="JUnit.TestaClienteDao.deveSalvarCliente" />
-        <item itemvalue="JUnit.TestaPersistence.deveGerarTAbelas" />
-        <item itemvalue="Tomcat Server.cadastro-clientes.xhtml" />
-        <item itemvalue="JUnit.TestaPersistence" />
+        <item itemvalue="JUnit.TestaClienteDao.deveAtaulizar" />
+        <item itemvalue="JUnit.TestaClienteDao.deveBuscarPeloNome" />
+        <item itemvalue="JUnit.TestaClienteDao.buscarPeloId" />
       </list>
     </recent_temporary>
   </component>
@@ -661,48 +673,64 @@
       <workItem from="1547683408782" duration="10171000" />
       <workItem from="1547739821116" duration="4172000" />
       <workItem from="1547765608515" duration="2535000" />
-      <workItem from="1547851475587" duration="3988000" />
+      <workItem from="1547851475587" duration="9164000" />
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1547855609514</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547855609514</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestaClienteDao_deveSalvarCliente - 2019.01.18 at 20h 34m 05s.xml">
+    <history-entry file="TestaClienteDao_deveAtaulizar - 2019.01.18 at 21h 46m 33s.xml">
+      <configuration name="TestaClienteDao.deveAtaulizar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaClienteDao_deveAtaulizar - 2019.01.18 at 21h 47m 32s.xml">
+      <configuration name="TestaClienteDao.deveAtaulizar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaClienteDao_deveAtaulizar - 2019.01.18 at 21h 47m 52s.xml">
+      <configuration name="TestaClienteDao.deveAtaulizar" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestaClienteDao_deveSalvarCliente - 2019.01.18 at 21h 53m 31s.xml">
       <configuration name="TestaClienteDao.deveSalvarCliente" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestaPersistence_deveGerarTAbelas - 2019.01.18 at 20h 36m 48s.xml">
-      <configuration name="TestaPersistence.deveGerarTAbelas" configurationId="JUnit" />
+    <history-entry file="TestaClienteDao_deveDeletarEntidade - 2019.01.18 at 21h 55m 31s.xml">
+      <configuration name="TestaClienteDao.deveDeletarEntidade" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestaPersistence_deveGerarTAbelas - 2019.01.18 at 20h 43m 00s.xml">
-      <configuration name="TestaPersistence.deveGerarTAbelas" configurationId="JUnit" />
+    <history-entry file="TestaClienteDao_deveDeletarEntidade - 2019.01.18 at 21h 56m 58s.xml">
+      <configuration name="TestaClienteDao.deveDeletarEntidade" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestaClienteDao_deveSalvarCliente - 2019.01.18 at 20h 44m 26s.xml">
-      <configuration name="TestaClienteDao.deveSalvarCliente" configurationId="JUnit" />
+    <history-entry file="TestaClienteDao_deveDeletarEntidade - 2019.01.18 at 21h 57m 53s.xml">
+      <configuration name="TestaClienteDao.deveDeletarEntidade" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestaClienteDao_deveSalvarCliente - 2019.01.18 at 20h 45m 16s.xml">
-      <configuration name="TestaClienteDao.deveSalvarCliente" configurationId="JUnit" />
+    <history-entry file="TestaClienteDao_deveDeletarEntidade - 2019.01.18 at 21h 58m 25s.xml">
+      <configuration name="TestaClienteDao.deveDeletarEntidade" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestaClienteDao_deveSalvarCliente - 2019.01.18 at 20h 46m 02s.xml">
-      <configuration name="TestaClienteDao.deveSalvarCliente" configurationId="JUnit" />
+    <history-entry file="TestaClienteDao_deveDeletarEntidade - 2019.01.18 at 22h 02m 15s.xml">
+      <configuration name="TestaClienteDao.deveDeletarEntidade" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestaClienteDao_deveSalvarCliente - 2019.01.18 at 20h 46m 53s.xml">
-      <configuration name="TestaClienteDao.deveSalvarCliente" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestaClienteDao_deveSalvarCliente - 2019.01.18 at 20h 47m 40s.xml">
-      <configuration name="TestaClienteDao.deveSalvarCliente" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestaClienteDao_deveSalvarCliente - 2019.01.18 at 20h 48m 44s.xml">
-      <configuration name="TestaClienteDao.deveSalvarCliente" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestaClienteDao_deveListarUsuarios - 2019.01.18 at 20h 50m 44s.xml">
-      <configuration name="TestaClienteDao.deveListarUsuarios" configurationId="JUnit" />
+    <history-entry file="TestaClienteDao_deveDeletarEntidade - 2019.01.18 at 22h 02m 30s.xml">
+      <configuration name="TestaClienteDao.deveDeletarEntidade" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23366000" />
+    <option name="totallyTimeSpent" value="28542000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26823708" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -713,17 +741,18 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.32885906" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.95469797" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.9496644" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32885906" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3294509" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="1.0" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.9899329" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3294509" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32885906" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3294509" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -746,14 +775,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/br/com/testes/TestaClienteDao.java</url>
-          <line>44</line>
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/dao/GenericDao.java</url>
+          <line>49</line>
           <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -774,16 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/util/HibernateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,16 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bean/ClienteBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -842,19 +855,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/model/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/model/Contato.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -873,22 +877,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/dao/GenericDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/model/Cliente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="201">
+          <caret line="12" column="107" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/testes/TestaClienteDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/util/HibernateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+        <state relative-caret-position="391">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/dao/ClienteDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/dao/GenericDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#829#859#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/testes/TestaClienteDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/bean/ClienteBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
           </folding>
         </state>
       </provider>

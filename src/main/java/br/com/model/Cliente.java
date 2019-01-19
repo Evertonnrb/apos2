@@ -80,6 +80,7 @@ public class Cliente extends Pessoa implements Serializable {
     public String toString() {
         return "Cliente{" +
                 "id=" + id +
+                ", Nome=" + getNome() +
                 ", dataCadastro=" + dataCadastro +
                 ", status=" + status +
                 ", ativo=" + ativo +

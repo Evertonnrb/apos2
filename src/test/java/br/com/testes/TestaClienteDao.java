@@ -1,5 +1,6 @@
 package br.com.testes;
 
+import br.com.dao.ClienteDao;
 import br.com.dao.GenericDao;
 import br.com.model.Cliente;
 import br.com.model.Contato;
@@ -18,8 +19,7 @@ public class TestaClienteDao {
 
     Cliente c;
     Contato contato;
-    GenericDao<Cliente> clienteDao = new GenericDao<>();
-    GenericDao<Contato> contatoGenericDao = new GenericDao<>();
+    ClienteDao clienteDao = new ClienteDao();
 
     @Test
     public void deveSalvarCliente() {
@@ -29,14 +29,14 @@ public class TestaClienteDao {
         formatDataCasdastro.format(data);
 
         c = new Cliente();
-        c.setNome("Zinedine Zidane");
-        c.setCpf("001");
-        c.setRg("32100");
+        c.setNome("teste delete");
+        c.setCpf("delete");
+        c.setRg("delete");
         c.setDataNascimento(data);
         c.setDataCadastro(data);
-        c.setStatus(Status.BLOQUEADO);
+        c.setStatus(Status.ATRASADO);
         c.setAtivo(true);
-        c.setEndereco("Rua dos golaçes 33");
+        c.setEndereco("delete");
         assertTrue(clienteDao.salvar(c));
     }
 
@@ -49,7 +49,42 @@ public class TestaClienteDao {
         assertNotNull(clientes);
     }
 
+    @Test
+    public void deveBuscarPeloId(){
+        c = new Cliente();
+        c.setId(1L);
+        c = clienteDao.buscarPorId(c);
+        assertNotNull(c);
+        System.out.println(c);
+    }
+
+    @Test
+    public void deveAtaulizar(){
+        c = new Cliente();
+        c.setId(1L);
+        c = clienteDao.buscarPorId(c);
+        c.setNome("EL  MARADONA");
+        c.setCpf("0022");
+        c.setRg("32193");
+        assertNotNull(clienteDao.atualizar(c));
+        System.out.println(c.toString());
+    }
 
 
+    @Test
+    public void deveBuscarPeloNome(){
+        String nome = "Thierry Henry";
+        assertNotNull(clienteDao.buscarPorNome(nome));
+        System.out.println(clienteDao.buscarPorNome(nome));
+    }
+
+    @Test
+    public void deveDeletarEntidade(){
+        c = new Cliente();
+        c.setId(7L);
+        c = clienteDao.buscarPorId(c);
+        assertTrue(clienteDao.deletar(c));
+
+    }
 
 }
